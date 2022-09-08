@@ -1,0 +1,80 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.currency-converter-section{
+  margin-top: 100px;
+  width:500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.currency-conventer-select{
+  margin-bottom: 20px;
+}
+.select-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.Dropdown-control{
+  border: 1px solid rgb(156, 156, 202) !important;
+  border-radius: 15px !important;
+  padding: 10px 50px !important;
+}
+.Dropdown-arrow{
+  top: 22px !important;
+}
+
+.currency-converter-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(156, 156, 202);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+
+}
+
+.currency-converter-box p{
+  margin: 0;
+}
+.converter-input{
+  border: 1px solid rgb(156, 156, 202);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+
+.converter-input-button{
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.converter-input-button input{
+  border-top-left-radius:15px;
+  border-bottom-left-radius:15px;
+  background-color: rgb(219, 210, 210);
+  border: 1px solid rgb(219, 210, 210);
+  padding: 5px 10px;
+  outline: none;
+  box-shadow: none;
+  background-color: #eeeeee;
+}
+.converter-input-button button{
+  border: 1px solid rgb(219, 210, 210);
+  padding: 5px 20px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+  background-color: #fff;
+}
+
+
+
+
